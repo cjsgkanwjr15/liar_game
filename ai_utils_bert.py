@@ -9,7 +9,7 @@ import streamlit as st
 
 
 # OpenAI API 키 설정 (본인의 API 키로 대체하세요)
-api_key = st.text_input("OpenAI API 키를 입력하세요", type="password")
+api_key = st.text_input("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", type="password")
 
 if api_key:
     openai.api_key = api_key
